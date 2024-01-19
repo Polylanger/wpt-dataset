@@ -17,8 +17,8 @@ We collected real web page tampering samples from zone-h.org and integrated them
 ||Tampering Type|Number of Snapshots|Number of Edges|Number of Benign Nodes|Number of Positive Nodes|
 |Training Set|Normal Pages|1595|3282874|189861|0|
 |Test Set|Website Homepage Replaced|54|169621|7734|54|
-|Website Homepage Infected with Trojan|57|148535|9475|57|
-|Malicious Ads Inserted in Website|68|165016|7653|1430|
+||Website Homepage Infected with Trojan|57|148535|9475|57|
+||Malicious Ads Inserted in Website|68|165016|7653|1430|
 
 ## Feature Extraction
 
