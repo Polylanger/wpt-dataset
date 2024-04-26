@@ -49,5 +49,4 @@ The raw temporal-graph data for WPT was provided by the Information Security Ins
 
 ## Contact
 
-- zhangqiangcs@stu.scu.edu.cn
-- xuyijia@stu.scu.edu.cn
+
