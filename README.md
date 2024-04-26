@@ -41,6 +41,8 @@ graph_path = 'data/host-1.bin'
 graphs = load_graphs(graph_path)
 ```
 
+For detailed information about the dataset, please refer to the [tutorial.ipynb](tutorials.ipynb) file.
+
 ## Credits
 
 The raw temporal-graph data for WPT was provided by the Information Security Institute of Sichuan University.
