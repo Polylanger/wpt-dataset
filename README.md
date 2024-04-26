@@ -12,13 +12,13 @@ We manually formulated rules to clean the data and finally obtained a batch of d
 
 We collected real web page tampering samples from zone-h.org and integrated them into our dataset in proportion to different categories of tampering. The ratio of normal samples to abnormal samples is shown in the table below:
 
-|   |   |   |   |   |   |
-|---|---|---|---|---|---|
-||Tampering Type|Number of Snapshots|Number of Edges|Number of Benign Nodes|Number of Positive Nodes|
-|Training Set|Normal Pages|1595|3282874|189861|0|
-|Test Set|Website Homepage Replaced|54|169621|7734|54|
-||Website Homepage Infected with Trojan|57|148535|9475|57|
-||Malicious Ads Inserted in Website|68|165016|7653|1430|
+|   |   |   |   |   |
+|---|---|---|---|---|
+|Tampering Type|Number of Snapshots|Number of Edges|Number of Benign Nodes|Number of Positive Nodes|
+|Normal web page|1352|3110317|227929|0|
+|Replace homepage|54|169621|8208|54|
+|Implant trojan|57|148535|9819|57|
+|Malvertising inserted|68|165016|8459|1430|
 
 ## Feature Extraction
 
@@ -46,7 +46,3 @@ For detailed information about the dataset, please refer to the [tutorial.ipynb]
 ## Credits
 
 The raw temporal-graph data for WPT was provided by the Information Security Institute of Sichuan University.
-
-## Contact
-
-
