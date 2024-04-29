@@ -6,7 +6,7 @@ Datasets used in the "Web Page Tampering Detection Based on Dynamic Temporal Gra
 
 We maintain a list of 600 authorized websites for collection, mainly focused on industries such as finance, healthcare, and education. Through a two-month scheduled collection task, we obtained an initial dataset containing 21 snapshots and more than 3 million normal web pages.
 
-We manually formulated rules to clean the data and finally obtained a batch of data containing more than 210,000 normal web pages collected from 79 websites.
+We manually formulated rules to clean the data and finally obtained a batch of data containing more than 204,000 normal web pages collected from 75 websites.
 
 ## Composition
 
@@ -15,10 +15,10 @@ We collected real web page tampering samples from zone-h.org and integrated them
 |   |   |   |   |   |
 |---|---|---|---|---|
 |Tampering Type|Number of Snapshots|Number of Edges|Number of Benign Nodes|Number of Positive Nodes|
-|Normal web page|1352|3110317|227929|0|
-|Replace homepage|54|169621|8208|54|
-|Implant trojan|57|148535|9819|57|
-|Malvertising inserted|68|165016|8459|1430|
+|Normal web page|1352|3110317|179143|0|
+|Replace homepage|54|169621|7734|54|
+|Implant trojan|57|148535|9475|57|
+|Malvertising inserted|68|165016|7653|1430|
 
 ## Feature Extraction
 
