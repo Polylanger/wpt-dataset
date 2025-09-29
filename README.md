@@ -4,9 +4,7 @@ Datasets used in the "Web Page Tampering Detection Based on Dynamic Temporal Gra
 
 ## Collection
 
-We maintain a list of 600 authorized websites for collection, mainly focused on industries such as finance, healthcare, and education. Through a two-month scheduled collection task, we obtained an initial dataset containing 21 snapshots and more than 3 million normal web pages.
-
-We manually formulated rules to clean the data and finally obtained a batch of data containing more than 204,000 normal web pages collected from 75 websites.
+We maintain a list of 600 authorized websites for collection, mainly focused on industries such as finance, healthcare, and education. Through a two-month scheduled collection task, we obtained an initial dataset containing 21 snapshots and more than 3 million normal web pages. We crawl authorized domains with per-host throttling (QPS ≤ 50 by default), respect robots.txt (including crawl-delay). Timeouts are set to 10 s with up to 3 retries on transient errors. A new time slice starts every 24 h at 02:00 (UTC+8) and the crawl lasts ≈5 h.
 
 ## Composition
 
@@ -19,6 +17,10 @@ We collected real web page tampering samples from zone-h.org and integrated them
 |Replace homepage|54|169621|7734|54|
 |Implant trojan|57|148535|9475|57|
 |Malvertising inserted|68|165016|7653|1430|
+
+For the tampering of pages through "Implant trojan" and "Malvertising inserted", we have set the following restrictions: token editing not exceeding 30%, no more than 5 new external links, no more than 3 new scripts (without deleting existing scripts), and no more than a 5% increase in DOM nodes. 
+
+For homepage tampering, we download the altered homepages from zone-h.org, such as: [link1](http://zonehmirrors.org/defaced/2023/06/19/camaraseverinia.sp.gov.br/camaraseverinia.sp.gov.br/), [link2](http://zonehmirrors.org/defaced/2023/06/20/geyve.bel.tr/geyve.bel.tr/), [link3](http://zonehmirrors.org/defaced/2023/06/16/naran.su.gov.mn/naran.su.gov.mn/), and directly replace the homepage content.
 
 ## Feature Extraction
 
