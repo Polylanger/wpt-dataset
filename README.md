@@ -22,6 +22,8 @@ For the tampering of pages through "Implant trojan" and "Malvertising inserted",
 
 For homepage tampering, we download the altered homepages from zone-h.org, such as: [link1](http://zonehmirrors.org/defaced/2023/06/19/camaraseverinia.sp.gov.br/camaraseverinia.sp.gov.br/), [link2](http://zonehmirrors.org/defaced/2023/06/20/geyve.bel.tr/geyve.bel.tr/), [link3](http://zonehmirrors.org/defaced/2023/06/16/naran.su.gov.mn/naran.su.gov.mn/), and directly replace the homepage content.
 
+For "Implant trojan", we collect web trojan samples from zone-h.org and the internet, extracting the malicious parts and embedding them into the corresponding pages. For "Malvertising inserted", we gather real malicious ad snippets from the internet, extracting the ad portions and embedding them into the pages.
+
 ## Feature Extraction
 
 **Structural Features** We parse the webpage structure into tag paths, construct a word bag from the paths, utilize the gensim library to train a doc2vec model on the entire dataset, and generate a 72-dimensional structural feature for each snapshot of the webpage.
