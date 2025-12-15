@@ -50,3 +50,15 @@ For detailed information about the dataset, please refer to the [tutorial.ipynb]
 ## Credits
 
 The raw temporal-graph data for WPT was provided by the Information Security Institute of Sichuan University.
+
+## Cite
+
+```bib
+@article{xu2025web,
+  title={Web Page Tampering Detection Based on Dynamic Temporal Graph Pre-training},
+  author={Xu, Yijia and Zhang, Qiang and Wang, Kaiyang and Liu, Zhonglin and Huang, Cheng and Fang, Yong},
+  journal={IEEE Transactions on Dependable and Secure Computing},
+  year={2025},
+  publisher={IEEE}
+}
+```
